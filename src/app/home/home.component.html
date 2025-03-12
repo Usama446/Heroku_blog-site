@@ -1,0 +1,25 @@
+<div class="season-container p_16" *ngFor="let season of uniqueSeasons" [id]="season">
+    <!-- Season Heading -->
+    <h2 class="season-heading" >{{ season }}</h2>
+
+    <!-- Cards Grid -->
+    <div class="grid">
+        <div class="col-12 md:col-6 lg:col-3" *ngFor="let post of getPostsBySeason(season)" (click)="opendetailpage(post)">
+            <p-card>
+                <ng-template pTemplate="header">
+                    <img [src]="post.image" [alt]="post.heading" class="post-image">
+                </ng-template>
+                <ng-template pTemplate="title">
+                    <p>{{ post.heading }}</p>
+                </ng-template>
+                <ng-template pTemplate="subtitle">
+                    <p>{{ post.subheading }}</p>
+                </ng-template>
+                <ng-template pTemplate="content">
+                    <p>{{ post.description }}</p>
+                </ng-template>
+            </p-card>
+        </div>
+    </div>
+</div>
+

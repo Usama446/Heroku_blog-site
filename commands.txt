@@ -1,0 +1,3 @@
+create deploy.sh file in project
+ng build --configuration="productio"
+than run ./deploy.sh in terminal

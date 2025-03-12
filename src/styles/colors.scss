@@ -1,0 +1,274 @@
+@import "./variable.scss";
+
+// Primary Color
+.color_primary {
+  color: $Primary;
+}
+.color_primary2 {
+  background-color: $primaryColor2;
+}
+.color_primary2_text {
+  color: $primaryColor2;
+}
+.bg_primary {
+  background-color: $Primary;
+}
+.color_primary-70 {
+  color: rgba($Primary, 0.7);
+}
+.bg_primary-70 {
+  background-color: rgba($Primary, 0.7);
+}
+.color_primary-20 {
+  color: rgba($Primary, 0.2);
+}
+.bg_primary-20 {
+  background-color: rgba($Primary, 0.2);
+}
+.color_primary-10 {
+  color: rgba($Primary, 0.1);
+}
+.bg_primary-10 {
+  background-color: rgba($Primary, 0.1);
+}
+
+// Secondary Color
+
+.color_secondary {
+  color: $Secondary;
+}
+.bg_secondary {
+  background-color: $Secondary;
+}
+.color_secondary-70 {
+  color: rgba($Secondary, 0.7);
+}
+.bg_secondary-70 {
+  background-color: rgba($Secondary, 0.7);
+}
+.color_secondary-20 {
+  color: rgba($Secondary, 0.2);
+}
+.bg_secondary-20 {
+  background-color: rgba($Secondary, 0.2);
+}
+.color_secondary-10 {
+  color: rgba($Secondary, 0.1);
+}
+.bg_secondary-10 {
+  background-color: rgba($Secondary, 0.1);
+}
+
+// Dark Color
+
+.color_dark {
+  color: $Dark;
+}
+.bg_dark {
+  background-color: $Dark;
+}
+.color_dark-70 {
+  color: rgba($Dark, 0.7);
+}
+.bg_dark-70 {
+  background-color: rgba($Dark, 0.7);
+}
+.color_dark-40 {
+  color: rgba($Dark, 0.4);
+}
+.bg_dark-40 {
+  background-color: rgba($Dark, 0.4);
+}
+.color_dark-20 {
+  color: rgba($Dark, 0.2);
+}
+.bg_dark-20 {
+  background-color: rgba($Dark, 0.2);
+}
+.color_dark-10 {
+  color: rgba($Dark, 0.1);
+}
+.bg_dark-10 {
+  background-color: rgba($Dark, 0.1);
+}
+
+// Info Color
+
+.color_info {
+  color: $Info;
+}
+.bg_info {
+  background-color: $Info;
+}
+.color_info-70 {
+  color: rgba($Info, 0.7);
+}
+.bg_info-70 {
+  background-color: rgba($Info, 0.7);
+}
+.color_info-20 {
+  color: rgba($Info, 0.2);
+}
+.bg_info-20 {
+  background-color: rgba($Info, 0.2);
+}
+.color_info-10 {
+  color: rgba($Info, 0.1);
+}
+.bg_info-10 {
+  background-color: rgba($Info, 0.1);
+}
+
+// Success Color
+
+.color_success {
+  color: $Success;
+}
+.bg_success {
+  background-color: $Success;
+}
+.color_success-70 {
+  color: rgba($Success, 0.7);
+}
+.bg_success-70 {
+  background-color: rgba($Success, 0.7);
+}
+.color_success-20 {
+  color: rgba($Success, 0.2);
+}
+.bg_success-20 {
+  background-color: rgba($Success, 0.2);
+}
+.color_success-10 {
+  color: rgba($Success, 0.1);
+}
+.bg_success-10 {
+  background-color: rgba($Success, 0.1);
+}
+
+// Purple Color
+
+.color_purple {
+  color: $Purple;
+}
+.bg_purple {
+  background-color: $Purple;
+}
+.color_purple-70 {
+  color: rgba($Purple, 0.7);
+}
+.bg_purple-70 {
+  background-color: rgba($Purple, 0.7);
+}
+.color_purple-20 {
+  color: rgba($Purple, 0.2);
+}
+.bg_purple-20 {
+  background-color: rgba($Purple, 0.2);
+}
+.color_purple-10 {
+  color: rgba($Purple, 0.1);
+}
+.bg_purple-10 {
+  background-color: rgba($Purple, 0.1);
+}
+
+// White Color
+
+.color_white {
+  color: $White;
+}
+.bg_white {
+  background-color: $White;
+}
+
+// Base Color
+
+.color_base {
+  color: $Base;
+}
+.bg_base {
+  background-color: $Base;
+}
+
+// Borders
+
+.border_1 {
+  border: 1px solid $Border;
+  border-radius: 8px;
+}
+.border_2 {
+  border: 1px solid $Border;
+  border-radius: 6px;
+}
+.border_3 {
+  border: 1px solid $Border;
+  border-radius: 12px;
+}
+.border_3-dash {
+  border: 1px dashed $Border;
+  border-radius: 12px;
+}
+.border_4 {
+  border: 1px solid $Border;
+  border-radius: 10px;
+}
+.border_r4 {
+  border-radius: 4px;
+}
+.border_b {
+  border-bottom: 1px solid $Border;
+}
+.border_t {
+  border-top: 1px solid $Border;
+}
+.border_l {
+  border-left: 1px solid $Border;
+}
+.border_r {
+  border-right: 1px solid $Border;
+}
+.border_red {
+  border-left: 3px solid $primaryColor2;
+}
+.border_green {
+  border-left: 3px solid #00bb06;
+}
+
+// Hover state for buttons
+
+// Primary hover
+.hover-primary {
+  transition: all 0.3s ease-in-out; /* Smooth transition for the effect */
+}
+
+.hover-primary:hover {
+  background-color: $Primary; /* Change background color on hover */
+  color: $White; /* Change text color on hover */
+  transform: scale(1.05); /* Optional: slight zoom effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+//   Dark hover
+
+.hover-dark {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-dark:hover {
+  border-radius: 6px;
+  background-color: rgba($Dark, 0.1);
+}
+
+// Outline Hover
+
+.hover-outline {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-outline:hover {
+  -webkit-box-shadow: 0 0 3px 3px rgba($Primary, 0.2);
+  -moz-box-shadow: 0 0 3px 3px rgba($Primary, 0.2);
+  box-shadow: 0 0 3px 3px rgba($Primary, 0.2);
+  border-radius: 6px;
+}

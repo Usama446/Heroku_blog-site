@@ -1,0 +1,13 @@
+<div class="flex justify-content-between align-items-center header">
+    
+    <img class="logo_img cursor-pointer" [src]="Data.logo" alt="logo">
+    
+    <div>
+        <ul class="flex gap_24 m_0 p_0">
+            <li *ngFor="let type of uniquePostTypes" (click)="scrollToSection(type)">{{ type }}</li>
+        </ul>
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-input" (input)="search($event)">
+    </div>
+</div>

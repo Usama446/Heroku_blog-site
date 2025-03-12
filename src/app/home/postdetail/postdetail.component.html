@@ -1,0 +1,21 @@
+
+<p-button styleClass="ml_20 mt_20 bg_primary border_1" (click)="goBack()">
+    ⬅ Back
+  </p-button>
+<div class="post-detail-container col-12 flex">
+    
+    <!-- Left Column: Image -->
+    <div class="col-6 image-container">
+        <img [src]="post.image" [alt]="post.heading" class="post-image">
+    </div>
+
+    <!-- Right Column: Content -->
+    <div class="col-6">
+        <div class="content-container p_32">
+            <h2 class="post-heading">{{ post.heading }}</h2>
+            <h3 class="post-subheading">{{ post.subheading }}</h3>
+            <p class="post-description">{{ post.long_description }}</p>
+        </div>
+    </div>
+
+</div>

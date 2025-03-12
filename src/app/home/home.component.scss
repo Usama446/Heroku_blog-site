@@ -1,0 +1,41 @@
+.season-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+::ng-deep .p-card {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+::ng-deep .p-card .p-card-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3rem; 
+}
+
+::ng-deep .p-card:hover .post-image {
+    transform: scale(1.02); 
+}
+
+::ng-deep .post-image {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+}
