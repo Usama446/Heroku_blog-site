@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "docs",
             "baseHref": "/Heroku_blog-site/",
+            "deployUrl": "/Heroku_blog-site/",
 
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -41,6 +42,11 @@
           },
           "configurations": {
             "production": {
+              "aot": true,
+              "optimization": true,
+              "extractLicenses": true,
+              "sourceMap": false,
+              "namedChunks": false,
               "budgets": [
                 {
                   "type": "initial",
