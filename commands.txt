@@ -7,3 +7,22 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 Apply the changes in code
 6) ng build --base-href "https://usama446.github.io/Heroku_blog-site/"
 7) npx angular-cli-ghpages --dir=docs/browser
+
+
+
+
+-------------------------------------------
+
+
+1) Download Node and install.
+2) Go to git bash terminal 'git clone https://github.com/Usama446/Heroku_blog-site.git' 
+3) Go to terminal 'npm i'
+4) npm install -g @angular/cli
+5) Apply the changes in code
+6) ng build --base-href "https://usama446.github.io/Heroku_blog-site/"
+7) npx angular-cli-ghpages --dir=docs/browser
+8) Now go to + sign in vs code and write new changes then press Commit and sync
+
+
+git config user.name "Usama446"
+git config user.email "us273852@gmail.com"
