@@ -2,9 +2,9 @@ create deploy.sh file in project
 ng build --configuration="productio"
 than run ./deploy.sh in terminal
 
+-------------------------------------------------
 
 5) Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-Apply the changes in code
 6) ng build --base-href "https://usama446.github.io/Heroku_blog-site/"
 7) npx angular-cli-ghpages --dir=docs/browser
 
