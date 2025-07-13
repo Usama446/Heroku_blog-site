@@ -180,7 +180,7 @@ export const natureBlog = {
             description: "The sun sets behind snow-covered trees, casting a golden glow over the icy landscape",
             long_description: "As the sun dips below the horizon, its golden rays illuminate the snow-covered forest, creating a mesmerizing contrast of warmth and cold. The untouched snow glistens under the soft light, reflecting hues of orange, pink, and blue. Each tree stands as a frosty masterpiece, its branches weighed down by layers of pure white snow. The distant mountains add to the serene beauty of the scene, stretching into the horizon like a frozen paradise. A crisp, refreshing chill fills the air, enhancing the peaceful ambiance of winter's embrace. This is nature’s perfect harmony, where the stillness of snow meets the brilliance of the setting sun",
             image: "assets/images/winter/download.jpeg", 
-            flag: "Food & Drinks" 
+            flag: "Food & Drinkss" 
         },
        
     ]
