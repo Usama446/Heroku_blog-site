@@ -171,7 +171,16 @@ export const natureBlog = {
             long_description: "The soft crunch of footsteps in the snow echoes through the silent winter landscape. A winding path leads through frost-covered trees, their branches heavy with freshly fallen snow. The sky above is painted with shades of gold and pink as the sun sets, casting a warm glow over the icy terrain. Rolling hills in the distance, blanketed in white, add to the peaceful beauty of this winter wonderland. This moment captures the harmony of nature—where the chill of winter meets the warmth of the setting sun in a breathtaking display of contrast and calm",
             image: "assets/images/winter/winter4.jpg", 
             flag: "Adventure" 
+        },
+        { 
+            id: 4005, 
+            postType: "Winter", 
+            heading: "Saba Owner",
+            subheading: "A peaceful snowy landscape under a golden sky",
+            description: "A tranquil winter scene featuring a snow-covered path, frost-laden trees, and a sunset casting warm hues over the clouds",
+            long_description: "The soft crunch of footsteps in the snow echoes through the silent winter landscape. A winding path leads through frost-covered trees, their branches heavy with freshly fallen snow. The sky above is painted with shades of gold and pink as the sun sets, casting a warm glow over the icy terrain. Rolling hills in the distance, blanketed in white, add to the peaceful beauty of this winter wonderland. This moment captures the harmony of nature—where the chill of winter meets the warmth of the setting sun in a breathtaking display of contrast and calm",
+            image: "assets/images/winter/download.jpeg", 
+            flag: "Adventure" 
         }
-       
     ]
 };
