@@ -1,3 +1,5 @@
 create deploy.sh file in project
 ng build --configuration="productio"
 than run ./deploy.sh in terminal
+
+ng build --base-href "https://usama446.github.io/Heroku_blog-site/"
