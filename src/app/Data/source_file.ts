@@ -44,6 +44,17 @@ export const natureBlog = {
             image: "assets/images/autumn/autumn4.jpg", 
             flag: "Wildlife" 
         },
+
+        { 
+            id: 1005, 
+            postType: "Autumn", 
+            heading: "Trees in Autumn Bliss",
+            subheading: "The perfect spot to enjoy fall’s tranquility",
+            description: "A lone bench sits beneath golden trees, inviting peaceful reflection",
+            long_description: "Autumn is a season that encourages quiet moments of reflection, and what better place to embrace it than on a wooden bench under a golden-leafed tree? The world slows down as the crisp air carries the soft scent of fallen leaves. Gentle winds whisper through the branches, making leaves dance to the rhythm of the season. This peaceful spot provides a perfect escape from the hustle and bustle of daily life, offering a chance to relax and appreciate nature’s fleeting masterpiece. Whether enjoying a book, sipping warm coffee, or simply gazing at the vibrant scenery, this is autumn’s embrace at its finest",
+            image: "assets/images/autumn/autumn5.jpg", 
+            flag: "Wildlife" 
+        },
        
 
          // Spring Posts
